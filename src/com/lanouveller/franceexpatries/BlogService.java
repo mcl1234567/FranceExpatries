@@ -26,7 +26,7 @@ import android.util.Log;
 
 public class BlogService extends Service {
 
-	public static final String NOUVEAU_OBJ_INSERE = "Nouveau blog enregistré";
+	public static final String NOUVEAU_OBJ_INSERE = "Nouveau blog enregistrï¿½";
 	public static final String BLOG_REFRESHED = "com.lanouveller.franceexpatries.BLOG_REFRESHED";
 
 	private AppLookupTask lastLookup = null;
@@ -40,7 +40,7 @@ public class BlogService extends Service {
   		protected Void doInBackground(Void... params) 
   		{
   			Log.i("TAG", "doInBackground");
-  			// Récupére le XML.
+  			// Rï¿½cupï¿½re le XML.
   			URL url;
 
   			try {
@@ -59,11 +59,11 @@ public class BlogService extends Service {
   					DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
   					DocumentBuilder db = dbf.newDocumentBuilder();
 
-  					// Parse le flux.
+  					// Parse le flux..
   					Document dom = db.parse(in);
   					Element docEle = dom.getDocumentElement();
 
-  					// Récupère une liste de chaque entrée.
+  					// Recupere une liste de chaque entree.
   					NodeList nl = docEle.getElementsByTagName("item");
 
   					if(nl != null && nl.getLength() > 0) {
@@ -78,7 +78,7 @@ public class BlogService extends Service {
 
   							Article article = new Article(titre, description, contenu, date, lien);
 
-  							// Traite le nouveau obj. ajouté.
+  							// Traite le nouveau obj. ajoutï¿½.
   							ajoutArticle(article);
   						}
   					}
@@ -100,14 +100,14 @@ public class BlogService extends Service {
     	@Override
     	protected void onProgressUpdate(Void... values) 
     	{    		
-    		// Récupération d'une notification.
+    		// Rï¿½cupï¿½ration d'une notification.
     		/**NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
     		Context context = getApplicationContext();
     		String expandedText =""; //values[0].getT();
     		String expandedTitle = "M: taratata";
 
-    		// Démarre une nouvelle activité.
+    		// Dï¿½marre une nouvelle activitï¿½.
     		Intent BlogsIntent = new Intent(BlogService.this, Blog.class);
     		PendingIntent launchIntent = PendingIntent.getActivity(context, 0, BlogsIntent, 0);
 
@@ -132,14 +132,14 @@ public class BlogService extends Service {
   	}
 
     /**
-     * Insertion / Mise à jour de la base de données.
+     * Insertion / Mise ï¿½ jour de la base de donnï¿½es.
      */
     private void ajoutArticle(Article _article) 
     {
 		Log.i("TAG", "ajoutArticle");
     	ContentResolver contentResolver = getContentResolver();
 
-    	// Construit une clause where pour vérifier que ce pays n'est pas déjà dans le provider.
+    	// Construit une clause where pour vï¿½rifier que ce pays n'est pas dï¿½jï¿½ dans le provider.
     	String where = BlogProvider.KEY_TITRE + " = '" + _article.getTitre() + "'";
 
     	if(contentResolver.query(BlogProvider.CONTENT_BLOG_URI, null, where, null, null).getCount() == 0) {
