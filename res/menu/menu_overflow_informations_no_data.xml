@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Unable to share if no data ! -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/ab_item_refresh"
+         android:icon="@drawable/navigation_refresh"
+         android:title="Actualiser"
+         android:alphabeticShortcut="r"
+         android:orderInCategory="1"
+         android:menuCategory="system"
+         android:showAsAction="ifRoom|withText" />
+
+	<item 
+	    android:id="@+id/menu_overflow"
+	    android:title="@string/menu_actionbar"
+      	android:icon="@drawable/ic_action_overflow_white"
+         android:alphabeticShortcut="m"
+         android:orderInCategory="2"
+         android:menuCategory="system"
+      	android:showAsAction="always|withText">
+
+        <!-- Sous-menu -->
+	    <menu>
+            <item 
+                android:id="@+id/item_preferences"
+                android:title="@string/item_preferences" />
+        </menu>
+
+	</item>
+
+</menu>

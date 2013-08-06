@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/tv_blog" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:textAppearance="?android:attr/textAppearanceLarge" 
+	android:gravity="center_vertical" 
+	android:paddingLeft="6dip"
+	android:textSize="28sp"
+   	android:textColor="@color/blue"  
+	android:minHeight="?android:attr/listPreferredItemHeight">
+
+</TextView>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lanouveller.franceexpatries"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="false"
+        	android:icon="@drawable/fe_logo_blanc"
+        android:label="@string/nom_application"
+        android:theme="@style/france_expatries_theme" >
+
+        <activity
+            android:name=".Accueil"
+            android:label="@string/nom_application" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Renseignements"
+            android:label="Informations" >
+        </activity>
+
+        <activity
+            android:name=".Correspondants"
+            android:label="Correspondants" >
+        </activity>
+
+        <activity
+            android:name=".Preferences"
+            android:label="Préférences" >
+        </activity>
+
+        <activity
+            android:name=".Erreur"
+            android:label="Configuration" >
+        </activity>
+
+        <activity
+            android:name=".FEXTwitter"
+            android:label="Twitter - France-Expatriés" >
+        </activity>
+
+        <activity
+            android:name=".FEXFacebook"
+            android:label="Facebook - France-Expatriés" >
+        </activity>
+
+        <activity
+            android:name=".Blog"
+            android:label="Blog - France-Expatriés" >
+        </activity>
+
+        <activity android:name=".Fiches" android:label="Fiches" >  </activity>
+        <activity android:name=".Guides" android:label="Guides" >  </activity>
+        <activity android:name="FichesWeb" android:label="FichesWeb" >  </activity>
+
+        <!-- Activité du Menu Sliding - à modifier par la lib native -->
+        <activity android:name="com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity" > </activity>
+        <activity android:name="com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity" > </activity>
+
+        <!-- Classes Service -->
+
+        <service
+            android:name="com.lanouveller.franceexpatries.RenseignementService"
+            android:enabled="true" />
+
+        <service
+            android:name="com.lanouveller.franceexpatries.CorrespondantService"
+            android:enabled="true" />
+
+        <service
+            android:name="com.lanouveller.franceexpatries.BlogService"
+            android:enabled="true" />
+
+        <service
+            android:name="com.lanouveller.franceexpatries.FicheService"
+            android:enabled="true" />
+
+        <!-- Classes Provider - Warning non résolu ? -->
+
+        <provider
+            android:name="com.lanouveller.franceexpatries.RenseignementProvider"
+            android:authorities="com.lanouveller.provider.pays" />
+
+        <provider
+            android:name="com.lanouveller.franceexpatries.CorrespondantProvider"
+            android:authorities="com.lanouveller.provider.correspondants" />
+
+        <provider
+            android:name="com.lanouveller.franceexpatries.UtilisateurProvider"
+            android:authorities="com.lanouveller.provider.utilisateur" />
+
+        <provider
+            android:name="com.lanouveller.franceexpatries.BlogProvider"
+            android:authorities="com.lanouveller.provider.blog" />
+
+        <provider
+            android:name="com.lanouveller.franceexpatries.FicheProvider"
+            android:authorities="com.lanouveller.provider.fiches" />
+
+
+        <uses-library android:name="com.google.android.maps" />
+
+	</application>
+
+</manifest>

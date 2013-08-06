@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+	<TextView
+	    android:id="@+id/tv_guide_argent"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+    	android:layout_marginBottom="10dp"
+    	android:gravity="center"
+	    android:clickable="true"
+	    android:text="@string/argent" />
+    
+	<TextView
+	    android:id="@+id/tv_guide_emploi"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+    	android:layout_marginBottom="10dp"
+    	android:gravity="center"
+	    android:clickable="true"
+	    android:text="@string/emploi" />
+
+	<TextView
+	    android:id="@+id/tv_guide_passeport"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+    	android:layout_marginBottom="10dp"
+    	android:gravity="center"
+	    android:clickable="true"
+	    android:text="@string/passeport" />
+    
+	<TextView
+	    android:id="@+id/tv_guide_sante"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+    	android:layout_marginBottom="10dp"
+    	android:gravity="center"
+	    android:clickable="true"
+	    android:text="@string/sante" />
+    
+	<TextView
+	    android:id="@+id/tv_guide_transport"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+    	android:layout_marginBottom="10dp"
+    	android:gravity="center"
+	    android:clickable="true"
+	    android:text="@string/transport" />
+    
+	<TextView
+	    android:id="@+id/tv_guide_vie_culturelle"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+    	android:layout_marginBottom="10dp"
+    	android:gravity="center"
+	    android:clickable="true"
+	    android:text="@string/vie_culturelle" />
+    
+	<TextView
+	    android:id="@+id/tv_guide_vie_quotidienne"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+    	android:layout_marginBottom="10dp"
+    	android:gravity="center"
+	    android:clickable="true"
+	    android:text="@string/vie_quotidienne" />
+
+</LinearLayout>

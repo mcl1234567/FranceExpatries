@@ -1,0 +1,28 @@
+<resources>
+
+ 	<!-- Menu sliding -->
+    <dimen name="shadow_width">15dp</dimen>
+
+    <!-- Décalage du menu sliding -->
+    <dimen name="slidingmenu_offset_smartphone">170dp</dimen>
+    <dimen name="slidingmenu_offset_tablette">360dp</dimen>
+
+    <!-- Items du menu sliding -->
+    <dimen name="items_menu_sliding">15sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Configuration vignettes home design v2 -->
+    <dimen name="margin_side_home_smartphone">25px</dimen>
+    <dimen name="margin_inter_home_smartphone">10px</dimen>
+    <dimen name="margin_side_home_tablette">70px</dimen>
+    <dimen name="margin_inter_home_tablette">30px</dimen>
+
+    <!-- Configuration Informations -->
+    <dimen name="infos_text_size">10sp</dimen>
+    <dimen name="infos_text_libelle_size">7sp</dimen>
+
+    <!-- Configuration Préférences -->
+    <dimen name="prefs_margin_inter">20dp</dimen>
+
+</resources>

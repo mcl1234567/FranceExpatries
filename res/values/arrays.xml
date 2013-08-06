@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+  <array name="pays_disponibles">
+    <item>Choisir un pays</item>
+    <item>Algérie</item>
+    <item>Allemagne</item>
+    <item>Argentine</item>
+    <item>Australie</item>
+    <item>Autriche</item>
+    <item>Belgique</item>
+    <item>Bénin</item>
+    <item>Brésil</item>
+    <item>Canada</item>
+    <item>Chine</item>
+    <item>Chypre</item>
+    <item>Corée du sud</item>
+    <item>Costa Rica</item>
+    <item>Cuba</item>
+    <item>Danemark</item>
+    <item>Espagne</item>
+    <item>Estonie</item>
+    <item>Etats-Unis</item>
+    <item>Finlande</item>
+    <item>Grèce</item>
+    <item>Indonésie</item>
+    <item>Irlande</item>
+    <item>Islande</item>
+    <item>Israël</item>
+    <item>Italie</item>
+    <item>Japon</item>
+    <item>Liban</item>
+    <item>Malte</item>
+    <item>Maroc</item>
+    <item>Mexique</item>
+    <item>Népal</item>
+    <item>Norvège</item>
+    <item>Pays-Bas</item>
+    <item>Pologne</item>
+    <item>Portugal</item>
+    <item>Royaume-Uni</item>
+    <item>Russie</item>
+    <item>Suède</item>
+    <item>Suisse</item>
+    <item>Tunisie</item>
+    <item>Ukraine</item>
+    <item>Uruguay</item>
+    <item>Vénézuéla</item>
+  </array>
+  
+  <array name="pays_disponibles_afrique">
+    <item>Algérie</item>
+    <item>Maroc</item>
+    <item>Tunisie</item>
+  </array>
+
+  <array name="pays_disponibles_amerique">
+    <item>Argentine</item>
+    <item>Brésil</item>
+    <item>Canada</item>
+    <item>Costa Rica</item>
+    <item>Cuba</item>
+    <item>Etats-Unis</item>
+    <item>Mexique</item>
+    <item>Uruguay</item>
+    <item>Vénézuéla</item>
+  </array>
+
+  <array name="pays_disponibles_asie">
+    <item>Chine</item>
+    <item>Corée du sud</item>
+    <item>Indonésie</item>
+    <item>Israël</item>
+    <item>Japon</item>
+    <item>Liban</item>
+    <item>Népal</item>
+  </array>
+
+  <array name="pays_disponibles_europe">
+    <item>Allemagne</item>
+    <item>Autriche</item>
+    <item>Belgique</item>
+    <item>Chypre</item>
+    <item>Danemark</item>
+    <item>Espagne</item>
+    <item>Estonie</item>
+    <item>Finlande</item>
+    <item>Royaume-Uni</item>
+    <item>Grèce</item>
+    <item>Irlande</item>
+    <item>Islande</item>
+    <item>Italie</item>
+    <item>Malte</item>
+    <item>Norvège</item>
+    <item>Pays-Bas</item>
+    <item>Pologne</item>
+    <item>Portugal</item>
+    <item>Russie</item>
+    <item>Suède</item>
+    <item>Suisse</item>
+    <item>Ukraine</item>
+  </array>
+
+  <array name="pays_disponibles_oceanie">
+    <item>Australie</item>
+  </array>
+
+  <array name="guides_disponibles">
+    <item>Argent et Fiscalité</item>
+    <item>Emploi et Contrat De Travail</item>
+    <item>Passeport et Visa</item>
+    <item>Santé et Protection sociale</item>
+    <item>Transport</item>
+    <item>Vie Culturelle</item>
+    <item>Vie Quotidienne</item>
+  </array>
+
+  <array name="guides_disponibles_abreges">
+    <item>argent</item>
+    <item>emploi</item>
+    <item>passeport</item>
+    <item>sante</item>
+    <item>transport</item>
+    <item>vie_culturelle</item>
+    <item>vie_quotidienne</item>
+  </array>
+  
+</resources>

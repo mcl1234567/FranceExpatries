@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+	<!-- Items cliquables du 'Menu Sliding' -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 1er item : Accueil -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+		    <!-- Item Accueil -->
+			<TextView
+			    android:id="@+id/item_accueil"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dp"
+			    android:paddingBottom="15dp"
+			    android:paddingTop="15dp"
+			    android:drawableLeft="@drawable/icon_accueil"
+			    android:drawablePadding="5dp"
+			    android:text="@string/accueil"
+			    android:clickable="true" />
+
+        </LinearLayout>
+
+        <!-- 2e item : Informations -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- Item Informations -->
+			<TextView
+			    android:id="@+id/item_informations"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="5dp"
+			    android:paddingBottom="5dp"
+			    android:paddingTop="25dp"
+			    android:drawableLeft="@drawable/icon_information"
+			    android:drawablePadding="5dp"
+			    android:text="@string/informations"
+			    android:textSize="@dimen/items_menu_sliding"
+			    android:clickable="true" />
+
+        </LinearLayout>
+
+        <!-- 3eme item : Correspondants -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+		    <!-- Item Correspondants -->
+			<TextView
+			    android:id="@+id/item_correspondants"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dp"
+			    android:paddingBottom="15dp"
+			    android:paddingTop="15dp"
+			    android:drawableLeft="@drawable/icon_correspondants"
+			    android:drawablePadding="5dp"
+			    android:text="@string/correspondants"
+			    android:textSize="@dimen/items_menu_sliding"
+			    android:clickable="true" />
+
+        </LinearLayout>
+
+        <!-- 4eme item : Twitter -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+		    <!-- Item Twitter -->
+			<TextView
+			    android:id="@+id/item_twitter"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dp"
+			    android:paddingBottom="15dp"
+			    android:paddingTop="15dp"
+			    android:drawableLeft="@drawable/icon_twitter"
+			    android:drawablePadding="5dp"
+			    android:text="@string/twitter"
+			    android:textSize="@dimen/items_menu_sliding"
+			    android:clickable="true" />
+
+        </LinearLayout>
+
+        <!-- 5eme item : Facebook -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+		    <!-- Item Facebook -->
+			<TextView
+			    android:id="@+id/item_facebook"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dp"
+			    android:paddingBottom="15dp"
+			    android:paddingTop="15dp"
+			    android:drawableLeft="@drawable/icon_facebook"
+			    android:drawablePadding="5dp"
+			    android:text="@string/facebook"
+			    android:textSize="@dimen/items_menu_sliding"
+			    android:clickable="true" />
+
+        </LinearLayout>
+
+        <!-- 6eme item : Blog -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+		    <!-- Item Blog -->
+			<TextView
+			    android:id="@+id/item_blog"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dp"
+			    android:paddingBottom="15dp"
+			    android:paddingTop="15dp"
+			    android:drawableLeft="@drawable/icon_rss"
+			    android:drawablePadding="5dp"
+			    android:text="@string/blog"
+			    android:textSize="@dimen/items_menu_sliding"
+			    android:clickable="true" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

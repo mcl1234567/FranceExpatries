@@ -1,0 +1,15 @@
+
+<TextView 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@android:id/text1"
+    style="?android:attr/spinnerItemStyle"
+    android:textColor="@color/black"
+    android:singleLine="true"
+    android:shadowColor="@color/gray"
+    android:textSize="25sp"
+   	android:shadowRadius="0.05"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:ellipsize="marquee" />

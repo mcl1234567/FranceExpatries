@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Thème: Styles de l'application -->
+    <style name="france_expatries_theme" parent="android:Theme.Holo" >
+       <item name="android:actionBarStyle">@style/action_bar_light</item>
+
+       <item name="android:textColor">@color/white</item>
+
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item> 
+        <!-- <item name="android:spinnerStyle">@style/SpinnerPreferences</item>  -->
+    </style>
+
+    <!-- Style items menu overflow ? -->
+    <style name="myCustomMenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <!-- Style de l'Action bar -->
+    <style name="action_bar_light" parent="@android:style/Widget.Holo.ActionBar" >
+    	<item name="android:background">@color/orange</item>
+    </style>
+
+    <!-- Style de la fenêtre de sélection des pays 
+    <style name="fenetre_pays" parent="@android:style/Theme.Dialog" >
+    	<item name="android:background">@color/white</item>
+    	<item name="android:textColor">@color/orange</item>
+    </style> -->
+
+    <!-- Style des [Items du Menu Sliding] pour tablette -->
+    <style name="itemsMenuSlidingTablette">
+        <item name="android:textSize">30sp</item>
+       <item name="android:textColor">@color/gris_clair</item>
+    </style>
+
+    <!-- Style des [Items du Menu Sliding] pour smartphone -->
+    <style name="itemsMenuSlidingSmartphone">
+        <item name="android:textSize">13sp</item>
+       <item name="android:textColor">@color/gris_clair</item>
+    </style>
+
+    <!-- Style des [Libellés Informations générales] pour tablette -->
+    <style name="libellesInformationTablette">
+        <item name="android:textSize">18sp</item>
+       <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <!-- Style des [Libellés Informations générales] pour smartphone -->
+    <style name="libellesInformationSmartphone">
+        <item name="android:textSize">14sp</item>
+       <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <!-- Style des [titres] -->
+    <style name="titreInformationTablette">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="titreInformationSmartphone">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <!-- Style des [contenus de l'application] -->
+    <style name="contenuCorrespondantsTablette">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="contenuCorrespondantsSmartphone">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Style des [contenus de l'application] -->
+    <style name="contenuInformationsTablette">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="contenuInformationsSmartphone">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Style des [contenus de l'application] -->
+    <style name="contenuGuidesTablette">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="contenuGuidesSmartphone">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Style des [contenus de l'application] -->
+    <style name="contenuErreurTablette">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="contenuErreurSmartphone">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Préférences - Choix du pays -->
+    <!-- <style name="spinnerPaysPreferences" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/black</item>
+    </style>-->
+    
+    <!-- Styles spinner : préférences choix du pays -->
+    <!-- Test -->
+    <style name="SpinnerPreferences" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@color/white</item>
+    </style>
+    <!-- Item au premier-plan -->
+    <style name="SpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem"> </style>
+    <!-- Items défilants -->
+    <style name="SpinnerDropDownItem" parent="@android:style/Widget.DropDownItem.Spinner">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>        
+        <item name="android:background">@color/gray</item>
+    </style>
+    
+</resources>

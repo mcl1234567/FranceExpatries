@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item 
+	    android:id="@+id/ab_item_share"
+        android:icon="@drawable/social_share"
+        android:title="Partager"
+        android:alphabeticShortcut="r"
+        android:orderInCategory="1"
+        android:menuCategory="system"
+        android:showAsAction="ifRoom|withText" />
+
+	  <!--<item 
+	    android:id="@+id/ab_item_share"
+        android:title="Partager"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="ifRoom|withText" /> -->
+
+	<item 
+	    android:id="@+id/menu_overflow"
+	    android:title="@string/menu_actionbar"
+        android:alphabeticShortcut="m"
+        android:orderInCategory="2"
+        android:menuCategory="system"
+      	android:icon="@drawable/ic_action_overflow_white"
+      	android:showAsAction="always|withText">
+
+        <!-- Sous-menu -->
+	    <menu>
+           <!--  <item 
+                android:id="@+id/item_commentaire"                
+                android:title="@string/item_commentaire" /> -->
+
+            <item 
+                android:id="@+id/item_preferences"
+                android:title="@string/item_preferences" />
+
+            <item 
+                android:id="@+id/item_refresh"
+                android:title="@string/item_refresh" />
+
+          <!-- <item 
+                android:id="@+id/item_aide"
+                android:title="@string/item_aide" />
+
+            <item 
+                android:id="@+id/item_about"
+                android:title="@string/item_about" /> -->
+        </menu>
+
+	</item>
+
+</menu>

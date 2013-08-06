@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    android:background="@color/white" >
+
+	<RelativeLayout 
+  			android:layout_width="match_parent"
+  			android:layout_height="wrap_content" >
+
+  		<TextView
+			android:id="@+id/tv_nom_pays"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/orange"
+			android:layout_toLeftOf="@+id/tv_monnaie" />
+
+  		<TextView
+			android:id="@+id/tv_monnaie"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:layout_alignParentRight="true" />
+	
+	</RelativeLayout>
+
+	<!--  Forme etat -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_forme_etat"
+			android:layout_width="match_parent"
+		    android:layout_height="wrap_content" 
+		    android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_forme_etat" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_forme_etat"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Forme Etat" />
+	
+	</RelativeLayout>
+
+	<!-- President de la Republique-->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_president_republique"
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_president_republique" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_president_republique"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Président de la République" />
+	
+	</RelativeLayout>
+
+	<!--  President du Gouvernement -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_president_gouvernement"
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_president_gouvernement" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_president_gouvernement"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Président du Gouvernement" />
+	
+	</RelativeLayout>
+
+	<!-- Premier Ministre -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_premier_ministre"
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_premier_ministre" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_premier_ministre"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Premier Ministre" />
+	
+	</RelativeLayout>
+
+	<!-- Gouvernement -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_gouvernement"
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_gouvernement" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_gouvernement"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Gouvernement" />
+	
+	</RelativeLayout>
+
+	<!--  Climat -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_climat"
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_climat" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_climat"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Climat" />
+	
+	</RelativeLayout>
+
+	<!--  Superficie -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_superficie"
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_superficie" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_superficie"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Superficie" />
+	
+	</RelativeLayout>
+
+	<!-- Densité -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_densite"
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	   	 	android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_densite" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_densite"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Densité" />
+	
+	</RelativeLayout>
+
+	<!-- Religion -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_religion"
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_religion" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_religion"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Religion" />
+	
+	</RelativeLayout>
+
+	<!-- PIB  -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_pib"
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	   		android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_pib" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_pib"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="PIB" />
+	
+	</RelativeLayout>
+
+	<!-- Nombre d'expatriés -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_nombre_expatries"
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_nombre_expatries" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_nombre_expatries"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Nombre d'expatriés" />
+	
+	</RelativeLayout>
+
+	<!-- Taux de chômage -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_taux_chomage"
+			android:layout_width="match_parent"
+	   	 	android:layout_height="wrap_content" 
+	    	android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_taux_chomage" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_taux_chomage"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Taux de chômage" />
+	
+	</RelativeLayout>
+
+	<!-- Indicatif Téléphonique -->
+	<RelativeLayout 
+  		android:layout_width="match_parent"
+  		android:layout_height="wrap_content" >
+
+	  	<TextView
+			android:id="@+id/tv_indicatif_tel"
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:padding="10dp"
+			android:textSize="@dimen/infos_text_size"
+			android:layout_toLeftOf="@+id/tv_libelle_indicatif_tel" />
+
+  		<TextView
+			android:id="@+id/tv_libelle_indicatif_tel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:padding="10dp"
+			android:textColor="@color/gris_clair"
+			android:textSize="@dimen/infos_text_libelle_size"
+			android:layout_alignParentRight="true"
+			android:text="Indicatif Téléphonique" />
+	</RelativeLayout>
+
+</LinearLayout>

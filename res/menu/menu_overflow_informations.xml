@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/ab_item_refresh"
+         android:icon="@drawable/navigation_refresh"
+         android:title="Actualiser"
+         android:alphabeticShortcut="r"
+         android:orderInCategory="1"
+         android:menuCategory="system"
+         android:showAsAction="ifRoom|withText" />
+
+	<!--  <item 
+	    android:id="@+id/ab_item_share"
+        android:title="Partager"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="ifRoom|withText" />-->
+
+	<!-- The orderInCategory higher means to the right -->
+	<item 
+	    android:id="@+id/menu_overflow"
+	    android:title="@string/menu_actionbar"
+      	android:icon="@drawable/ic_action_overflow_white"
+         android:alphabeticShortcut="m"
+         android:orderInCategory="2"
+         android:menuCategory="system"
+      	android:showAsAction="always|withText">
+
+        <!-- Sous-menu -->
+	    <menu>
+            <item 
+                android:id="@+id/item_preferences"
+                android:title="@string/item_preferences" />
+
+            <item 
+                android:id="@+id/item_share"
+                android:title="Partager"/>
+        </menu>
+
+	</item>
+
+</menu>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2" >
+
+        <ImageView
+            android:id="@+id/vignette_fluxfacebook"
+            android:layout_width="153dp"
+            android:layout_height="152dp"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="@dimen/margin_inter_home_tablette"
+            android:layout_marginTop="@dimen/margin_side_home_tablette"
+            android:layout_row="0"
+            android:src="@drawable/vignette_v2_facebook_800x1280" />
+
+        <ImageView
+            android:id="@+id/vignette_fluxtwitter"
+            android:layout_width="153dp"
+            android:layout_height="152dp"
+            android:layout_column="1"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="@dimen/margin_inter_home_tablette"
+            android:layout_row="0"
+            android:src="@drawable/vignette_v2_twitter_800x1280" />
+
+        <ImageView
+            android:id="@+id/vignette_renseignements"
+            android:layout_width="271dp"
+            android:layout_height="354dp"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="@dimen/margin_inter_home_tablette"
+            android:layout_marginTop="@dimen/margin_side_home_tablette"
+            android:layout_row="0"
+            android:src="@drawable/vignette_v2_defaut_800x1280" />
+
+        <ImageView
+            android:id="@+id/vignette_guides"
+            android:layout_width="443dp"
+            android:layout_height="155dp"
+            android:layout_column="1"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="@dimen/margin_inter_home_tablette"
+            android:layout_marginTop="@dimen/margin_side_home_tablette"
+            android:layout_row="0"
+            android:src="@drawable/vignette_v2_guides_800x1280" />
+
+        <ImageView
+            android:id="@+id/vignette_correspondants"
+            android:layout_width="443dp"
+            android:layout_height="149dp"
+            android:layout_column="1"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="@dimen/margin_inter_home_tablette"
+            android:layout_marginTop="@dimen/margin_side_home_tablette"
+            android:layout_row="0"
+            android:src="@drawable/vignette_v2_correspondants_800x1280" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:rowCount="4" >
+
+    </GridLayout>
+
+</LinearLayout>

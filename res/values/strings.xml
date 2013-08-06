@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<resources>
+
+    <string name="nom_application">France-Expatriés</string>
+    <string name="vide"></string>
+
+    <!-- URL des serveurs BDD  -->
+    <string name="renseignements_feed">http://france-expatries.com/fex_app/pays.php?pays=</string>
+    <string name="correspondants_feed">http://france-expatries.com/fex_app/correspondant.php</string>
+
+    <!-- Préférences -->
+    <string name="titre_preferences">Préférences</string>
+    <string name="libelle_pays">Sélectionnez le pays dans la liste déroulante ci-dessous : </string>
+    <string name="etat_informations">Disponiblité des informations générales du pays</string>
+    <string name="etat_correspondants">Disponiblité des correspondants du pays</string>
+    <string name="etat_guides">Disponiblité des guides du pays</string>
+
+    <!-- Items du 'Menu Overflow' vertical -->
+    <string name="menu_actionbar">Menu</string>
+    <string name="item_commentaire">Envoyer un commentaire</string>
+    <string name="item_preferences">Préférences</string>
+    <string name="item_refresh">Rafraîchir</string>
+    <string name="item_hs">Passer en mode hors-ligne</string>
+    <string name="item_aide">Aide</string>
+    <string name="item_about">A propos de</string>
+
+    <!-- Items du 'Menu Sliding' -->
+    <string name="accueil">Accueil</string>
+    <string name="informations">Informations</string>
+    <string name="guides">Guides</string>
+    <string name="correspondants">Correspondants</string>
+    <string name="twitter">Twitter France - Expatriés</string>
+    <string name="facebook">Facebook  France - Expatriés</string>
+    <string name="blog">Blog France-Expatriés</string>
+
+    <!-- Préférences: Envoi d'un commentaire ( bug, remarque, .. ) -->
+    <string name="dialog_title">Envoyer un commentaire</string>
+    <string name="dialog_message"></string>
+    <string name="send">Envoyer</string>
+    <string name="cancel">Annuler</string>
+
+    <!-- Accueil: Demande du pays d'expatriation lors de la première connexion -->
+    <string name="title_choix_pays">Votre Pays d\'Expatriation</string>
+    <string name="choix_pays">Choississez votre pays : </string>
+    <string name="selection_pays">Sélectionner</string>
+    
+    <!-- Items guides -->
+    <string name="argent">Argent et Fiscalité</string>
+    <string name="emploi">Emploi et Contrat De Travail</string>
+    <string name="passeport">Passeport et Visa</string>
+    <string name="sante">Santé et Protection sociale</string>
+    <string name="transport">Transport</string>
+    <string name="vie_culturelle">Vie Culturelle</string>
+    <string name="vie_quotidienne">Vie Quotidienne</string>
+
+</resources>

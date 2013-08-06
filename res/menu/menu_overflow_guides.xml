@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item 
+	    android:id="@+id/menu_overflow"
+	    android:title="@string/menu_actionbar"
+      	android:icon="@drawable/ic_action_overflow_white"
+      	android:showAsAction="always|withText">
+
+        <!-- Sous-menu -->
+	    <menu>
+
+            <item 
+                android:id="@+id/item_preferences"
+                android:title="@string/item_preferences" />
+
+            <item 
+                android:id="@+id/item_refresh"
+                android:title="@string/item_refresh" />
+        </menu>
+
+	</item>
+
+</menu>
